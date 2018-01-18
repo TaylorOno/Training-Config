@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri:${vcap.services.config-repo-git.credentials.uri}
+          uri: ${vcap.services.config-repo-git.credentials.uri}
 security:
   user:
     name: ${vcap.services.config-basic-auth.credentials.username}
